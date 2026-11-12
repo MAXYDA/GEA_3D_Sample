@@ -258,6 +258,8 @@ GameObject:
   - component: {fileID: 768911203}
   - component: {fileID: 768911206}
   - component: {fileID: 768911205}
+  - component: {fileID: 768911208}
+  - component: {fileID: 768911207}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -333,6 +335,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HpPractice
   currentHp: 0
   maxHp: 0
+--- !u!114 &768911207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768911202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38343b1683d27614885a7c58722831d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamagePractice
+  attack: 0
+  defense: 0
+  isCritical: 0
+  targetIsBoss: 0
+--- !u!114 &768911208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768911202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e9dd55ced219e44b61eebc98841bea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lesson10
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
